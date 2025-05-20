@@ -1,0 +1,53 @@
+import React from "react";
+
+function App() {
+  return (
+    <div className="p-6 max-w-5xl mx-auto space-y-8 font-sans">
+      <header className="text-center space-y-2">
+        <h1 className="text-4xl font-bold">Bolarinwa Ifeoluwanimi A.</h1>
+        <div className="text-gray-600 text-sm">
+          <p>📞 +234 808 193 4293 | 📧 ifeoluwanimibolarinwa@gmail.com</p>
+        </div>
+      </header>
+
+      <section>
+        <h2 className="text-2xl font-semibold mb-2">Education</h2>
+        <div>
+          <p className="font-semibold">University of Ibadan, Nigeria (Feb 2025)</p>
+          <p>B.Sc. Human Nutrition and Dietetics — GPA: 3.02</p>
+          <p className="text-sm text-gray-500">
+            Relevant Courses: English, Biochemistry, Nutrition, Anatomy & Physiology
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2 className="text-2xl font-semibold mb-2">Leadership Experience</h2>
+        <ul className="list-disc ml-6">
+          <li><strong>Social Director</strong>, Human Nutrition Dept. (Sept 2023–April 2024)</li>
+          <li><strong>Volunteer Leader</strong>, SHRIN Medical Outreach (Dec 2024)</li>
+          <li><strong>Study Coordinator</strong>, Diets & Lipid Profile Study (July 2024–Feb 2025)</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-2xl font-semibold mb-2">Work Experience</h2>
+        <ul className="list-disc ml-6">
+          <li><strong>Teaching Assistant</strong>, Daycare (Aug 2018–Jan 2021)</li>
+          <li><strong>Script Marker</strong>, WAEC (Sept 2019)</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-2xl font-semibold mb-2">Skills & Interests</h2>
+        <ul className="list-disc ml-6">
+          <li>Fluent in English</li>
+          <li>Proficient in Microsoft Office, PowerPoint</li>
+          <li>Intermediate skills in SPSS</li>
+        </ul>
+      </section>
+    </div>
+  );
+}
+
+export default App;
